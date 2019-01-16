@@ -1,0 +1,93 @@
+body {
+    background-color: cadetblue;
+    font-family: 'Ubuntu', serif;
+}
+
+article, header, footer, aside, section {
+    /*background: rgba(255, 255, 255, 0.5);*/
+}
+
+header, footer {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+header {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bolder;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    width: 30%;
+}
+
+div.container {
+    width: 90%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.legend {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.legend ul {
+    list-style-type: none;
+}
+
+.legend li {
+    cursor: pointer;
+    padding: 2px 0px;
+    margin: 2px 0px;
+    display: inline-block;
+    width: 20%;
+    color: chartreuse;
+}
+
+div.container section {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    text-align: justify;
+}
+
+div.container figcaption {
+    text-align: center;
+}
+
+div.container article {
+    padding: 10px 15px;
+    margin: 10px 10px;
+}
+
+figure {
+    float: left;
+}
+
+div.content {
+}
+
+div.sidebar {
+}
+
+div.sidebar aside {
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
